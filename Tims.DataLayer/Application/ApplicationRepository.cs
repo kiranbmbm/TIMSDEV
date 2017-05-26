@@ -65,6 +65,7 @@ namespace Tims.DataLayer
             }
             return list;
         }
+
         private int GetDataRowsNullableIntValue(DataRow dr, string ColumnName)
         {
             int value = 0;
